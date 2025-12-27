@@ -1,0 +1,36 @@
+
+.base-node {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 12px;
+  min-width: 180px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  border: 1px solid #e5e7eb;
+}
+
+.text-node-textarea {
+  width: 100%;
+  min-width: 160px;
+  max-width: 320px;
+  resize: none;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.base-node input,
+.base-node textarea,
+.base-node select {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px 8px;
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  background-color: lch(96.02% 2.48 19.31);
+
+  box-sizing: border-box;
+}
+
